@@ -1,0 +1,12 @@
+# Youtube 4 Hour Course for Python.
+
+# https://www.youtube.com/watch?v=rfscVS0vtbw
+
+
+ 
+
+ Defining Function
+
+ def functionName(argumentVariableName):
+     code to execute with argumentVariableName
+     return somethingToReturn
