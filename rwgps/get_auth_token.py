@@ -8,3 +8,4 @@ with open("user_info.json", "r") as read_file:
 auth_token = data["user"]["auth_token"]
 
 print(auth_token)
+
