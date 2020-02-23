@@ -23,7 +23,7 @@ for x in data['results']:
 
 # plt.style.use('seaborn')
 fig, ax = plt.subplots()
-ax.scatter(tripCount, tripDistancesMiles, s=tripElevations, c=tripElevations, cmap=plt.cm.Paired, alpha=0.50)
+ax.scatter(tripCount, tripDistancesMiles, s=tripElevations, c=tripElevations, cmap='Paired', alpha=0.50)
 
 # scatter(x, y, s=None, c=None, marker=None, cmap=None, norm=None, vmin=None, vmax=None, alpha=None, linewidths=None, verts=None, edgecolors=None, *, plotnonfinite=False, data=None, **kwargs)
 
