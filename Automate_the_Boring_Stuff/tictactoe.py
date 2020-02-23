@@ -1,7 +1,11 @@
-theBoard = { 'top-L': ' ', 'top-M': ' ', 'top-R': ' ',
-             'mid-L': ' ', 'mid-M': ' ', 'mid-R': ' ',
-             'low-L': ' ', 'low-M': ' ', 'low-R': ' '}
-             
+# ASCII Tic-Tac-Toe
+import random
+
+
+theBoard = {'top-L': ' ', 'top-M': ' ', 'top-R': ' ',
+            'mid-L': ' ', 'mid-M': ' ', 'mid-R': ' ',
+            'low-L': ' ', 'low-M': ' ', 'low-R': ' '}
+
 def printBoard(board):
     print(board['top-L'] + '|' + board['top-M'] + '|' + board['top-R'])
     print('-+-+-')
@@ -20,3 +24,6 @@ for i in range(9):
     else:
         turn = 'X'
 printBoard(theBoard)
+
+
+def computerMove()
